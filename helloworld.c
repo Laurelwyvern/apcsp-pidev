@@ -6,4 +6,4 @@ int main()
   printf("CCA\nAPCSP");
   return 0;
 }
-© 2019 GitHub, Inc.
+//© 2019 GitHub, Inc.
