@@ -11,5 +11,5 @@ int main()
   int tmp = a;
   a = c;
   c = tmp;
-  printf("a: %d\nc: %d", a, c);
+  printf("a: %d\nc: %d\n", a, c);
 }
