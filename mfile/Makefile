@@ -12,11 +12,11 @@ HEADERS = $(wildcard *.h)
 OBJECTS = $(patsubst %.c, %.o, $(wildcard *.c))
 
 %.o: %.c $(HEADERS)
-        $(CC) $(CFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) -c $< -o $@
 
 $(TARGET): $(OBJECTS)
-        $(CC) $^ $(LIBS) -o $@
+	$(CC) $^ $(LIBS) -o $@
 
 clean:
-        -rm -f *.o
-        -rm -f $(TARGET)
+	-rm -f *.o
+	-rm -f $(TARGET)
