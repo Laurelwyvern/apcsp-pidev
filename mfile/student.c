@@ -14,7 +14,7 @@ void printStudent(struct Student* s){
 int main(int argc, char* argv[]){
   struct Student group[100];
   if (argc < 5 || (argc-1)%4 != 0){
-    printf("%s: Input a few students in this order: Firstname Lastname Age ID. Remember that they always need to be complete, with all four fields, and each four fields refers to a different student.\n", argv[0]);
+    printf("%s: Add to the command line, a few students in this order: Firstname Lastname Age ID. Remember that they always need to be complete, with all four fields, and each four fields refers to a different student.\n", argv[0]);
   } else {
     int r = 0;
     for (int i=1; i<argc; i+=4){
