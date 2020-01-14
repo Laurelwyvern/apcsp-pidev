@@ -12,6 +12,7 @@ void printStudent(struct Student* s){
 }
 
 int main(int argc, char* argv[]){
+  //Array right down below :) (Arrays sure are weird in c...)
   struct Student group[100];
   if (argc < 5 || (argc-1)%4 != 0){
     printf("%s: Add to the command line, a few students in this order: Firstname Lastname Age ID. Remember that they always need to be complete, with all four fields, and each four fields refers to a different student.\n", argv[0]);
